@@ -1,0 +1,32 @@
+aside {
+  position: fixed;
+  top: 91px;
+  width: 91px;
+  height: calc(100vh - 91px);
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  div {
+    position: relative;
+    top: -91px;
+    img {
+      display: block;
+      box-sizing: border-box;
+      width: 62px;
+      height: 62px;
+      border-radius: 8px;
+      background-color: white;
+      margin: 10px 0;
+      padding: 15px;
+    }
+  }
+  p.copiryght {
+    position: absolute;
+    bottom: 100px;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    color: white;
+  }
+}
